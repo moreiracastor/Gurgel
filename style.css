@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Orbitron&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Outfit:wght@200&display=swap');
+
+@media (min-width: 480px){
+    main section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(120deg, #3f51b5, #03a9f4);
+}
+
+h1, h3 {
+    font-family: 'Crete Round', serif;
+    font-weight: 300;
+}
+
+ul, li, p, nav, .botao {
+    font-family: 'Crete Round', serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 20px;
+}
+
+header h1 {
+    font-size: 67px;
+}
+
+header h3 {
+    font-size: 31px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    width: 300px;
+    height: 30px;
+
+    margin: 0px 1px 0px 2px;
+
+}
+
+nav a {
+    text-decoration: none;
+
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #b3291f;
+
+    border-radius: 10px;
+    border: none;
+
+    transition: 0.3s;
+
+}
+
+main {
+    border-top: 0.4px solid black;
+
+}
+
+.sesao-um, .sesao-dois{
+    display: flex;
+    align-items: center;
+}
+
+.div-sesao-um, .div-sesao-dois{
+    margin: 10px 10px 20px 10px;
+
+    text-align: justify;
+}
+
+.titulo-sesao-dois {
+    border-top: 0.4px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sesao-tres {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    border-top: 0.4px solid black;
+}
+
+.titulo-botao {
+    margin-top: 20px;
+}
+
+.botao {
+    background-color: black;
+
+    width: 100px;
+    height: 30px;
+
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+
+    text-align: center;
+}
+
+.botao:hover{
+    background-color: rgb(29, 29, 29);
+
+    transition: 0.3s;
+
+    width: 150px;
+    height: 45px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #000;
+
+    border-bottom: 20px solid black;
+    
+}
+
+.lista {
+    margin: 25px;
+    text-align: justify;
+}
+
+
+
+
+/*.imagem-sesao-um {
+    display: flex;
+    
+    margin: 0auto;
+    
+}*/ 
+
+
+
