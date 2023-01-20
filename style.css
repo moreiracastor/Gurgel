@@ -68,6 +68,9 @@ background-image: linear-gradient(120deg, #3f51b5, #03a9f4);
 
     .sesao-um, .sesao-dois, .sesao-tres {
         margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .div-sesao-um, .div-sesao-dois {
@@ -88,7 +91,7 @@ background-image: linear-gradient(120deg, #3f51b5, #03a9f4);
     .paragrafo-sesao-um, .paragrafo-sesao-dois {
         text-align: justify;
     }
-
+    
     .sesao-tres {
         display: flex;
         align-items: center;
