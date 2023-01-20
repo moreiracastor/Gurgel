@@ -1,165 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Orbitron&family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Outfit:wght@200&display=swap');
 
-@media (min-width: 480px){
-    main section {
+/*
+
+Titulos: font-family: 'Crete Round', serif;
+paragrafos e links: font-family: 'Outfit', serif;
+
+background-image: linear-gradient(120deg, #3f51b5, #03a9f4);
+
+
+*/
+
+
+/*Media para celulares*/
+@media only screen and (max-width: 667px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-image: linear-gradient(120deg, #3f51b5, #03a9f4);
+        color: white;
+    }
+    
+    header {
         display: flex;
         flex-direction: column;
     }
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    color: white;
-}
+    .h-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
 
-body {
-    background-image: linear-gradient(120deg, #3f51b5, #03a9f4);
-}
+        margin-bottom: 26px;
+    }
 
-h1, h3 {
-    font-family: 'Crete Round', serif;
-    font-weight: 300;
-}
+    .h-titulo {
+        font-family: 'Crete Round', serif;
+        font-weight: 400;
 
-ul, li, p, nav, .botao {
-    font-family: 'Crete Round', serif;
-}
+        font-size: 67px;
+    }
 
-header {
-    margin-bottom: 20px;
-}
+    .h-subtitulo {
+        font-family: 'Outfit', serif;
+        font-size: 25px;
+    }
 
-header section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    .nav-section {
+        margin: 0px 0px 15px 10px;
 
-    margin: 20px;
-}
+        display: flex;
+        gap: 7px;
+        
+    }
 
-header h1 {
-    font-size: 67px;
-}
+    .nav-item-1, .nav-item-2, .nav-item-3 {
+        font-family: 'Outfit', serif;
 
-header h3 {
-    font-size: 31px;
-}
+        text-decoration: none;
+        color: white;
+    }
 
-nav {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+    .sesao-um, .sesao-dois, .sesao-tres {
+        margin: 10px;
+    }
 
-    width: 300px;
-    height: 30px;
+    .div-sesao-um, .div-sesao-dois {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
-    margin: 0px 1px 0px 2px;
+    .titulo-sesao-um, .titulo-sesao-dois, .titulo-botao {
+        font-family: 'Crete Round', serif;
+        font-weight: 400;
+    }
 
-}
+    .paragrafo-sesao-um, .paragrafo-sesao-dois, .botao, .lista {
+        font-family: 'Outfit', serif;
+    }
 
-nav a {
-    text-decoration: none;
+    .paragrafo-sesao-um, .paragrafo-sesao-dois {
+        text-align: justify;
+    }
 
-    font-size: 13px;
-    padding: 5px 10px;
-}
+    .sesao-tres {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
-nav a:hover {
-    background-color: #b3291f;
+    .botao {
+        margin: 13px 0px 10px 0px;
 
-    border-radius: 10px;
-    border: none;
+        width: 100px;
+        height: 30px;
 
-    transition: 0.3s;
+        border-radius: 10px;
+        border: none;
 
-}
+        background-color: black;
+        color: white;
 
-main {
-    border-top: 0.4px solid black;
+    }
 
-}
+    footer {
+        background-color: black;
+        font-size: 13px;
 
-.sesao-um, .sesao-dois{
-    display: flex;
-    align-items: center;
-}
+        padding: 0px 2px 0px 20px;
+    }
 
-.div-sesao-um, .div-sesao-dois{
-    margin: 10px 10px 20px 10px;
-
-    text-align: justify;
-}
-
-.titulo-sesao-dois {
-    border-top: 0.4px solid black;
-}
-
-h1 {
-    text-align: center;
-}
-
-.sesao-tres {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-
-    border-top: 0.4px solid black;
-}
-
-.titulo-botao {
-    margin-top: 20px;
-}
-
-.botao {
-    background-color: black;
-
-    width: 100px;
-    height: 30px;
-
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: none;
-
-    text-align: center;
-}
-
-.botao:hover{
-    background-color: rgb(29, 29, 29);
-
-    transition: 0.3s;
-
-    width: 150px;
-    height: 45px;
+    .itens {
+        padding: 4px;
+    }
 
 }
-
-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-    background-color: #000;
-
-    border-bottom: 20px solid black;
-    
-}
-
-.lista {
-    margin: 25px;
-    text-align: justify;
-}
-
-
-
-
-/*.imagem-sesao-um {
-    display: flex;
-    
-    margin: 0auto;
-    
-}*/ 
-
-
-
